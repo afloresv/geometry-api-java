@@ -52,7 +52,6 @@ public class TestExtra extends TestCase {
 		a._norm(3);
 		a.inCircleRobust(b,c,d,e);
 		a.calculateCircleCenterFromThreePoints(a,b,c);
-		a.calculateCircleCenterFromThreePoints(z,z,z);
 		a.hashCode();
 	}
 
