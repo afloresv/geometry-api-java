@@ -144,7 +144,7 @@ public final class Transformation2D {
 
 	void transform(Point2D[] points, int start, int count) {
 		int n = Math.min(points.length, start + count);
-		for (int i = count; i < n; i++) {
+		for (int i = start; i < n; i++) {
 			transform(points[i], points[i]);
 		}
 	}
