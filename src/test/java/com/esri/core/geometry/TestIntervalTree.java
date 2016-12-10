@@ -28,14 +28,14 @@ public class TestIntervalTree extends TestCase {
 	public static void testIntervalTree() {
 		ArrayList<Envelope1D> intervals = new ArrayList<Envelope1D>(0);
 
-		Envelope1D env0 = new Envelope1D(2, 3);
-		Envelope1D env1 = new Envelope1D(5, 13);
-		Envelope1D env2 = new Envelope1D(6, 9);
-		Envelope1D env3 = new Envelope1D(8, 10);
-		Envelope1D env4 = new Envelope1D(11, 12);
-		Envelope1D env5 = new Envelope1D(1, 3);
-		Envelope1D env6 = new Envelope1D(0, 2);
-		Envelope1D env7 = new Envelope1D(4, 7);
+		Envelope1D env0 = new Envelope1D(new Envelope1D(2, 3));
+		Envelope1D env1 = new Envelope1D(new Envelope1D(5, 13));
+		Envelope1D env2 = new Envelope1D(new Envelope1D(6, 9));
+		Envelope1D env3 = new Envelope1D(new Envelope1D(8, 10));
+		Envelope1D env4 = new Envelope1D(new Envelope1D(11, 12));
+		Envelope1D env5 = new Envelope1D(new Envelope1D(1, 3));
+		Envelope1D env6 = new Envelope1D(new Envelope1D(0, 2));
+		Envelope1D env7 = new Envelope1D(new Envelope1D(4, 7));
 		Envelope1D env8;
 
 		intervals.add(env0);
